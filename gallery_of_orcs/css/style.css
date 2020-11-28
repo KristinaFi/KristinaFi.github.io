@@ -1,0 +1,81 @@
+*{
+	 padding: 0;
+	 margin: 0;
+	 box-sizing: border-box;
+}
+@font-face {
+	font-family: Caveat Regular;
+	src: url(../fonts/Caveat-Regular.ttf);
+}
+body {
+	/*background-color: #e7ab90;*/
+ 	font-family: Caveat Regular;
+ }
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 1px 10px 10px 10px rgb(0,0,0,0.3);
+	background-image: url(../img/21.jpg);
+}
+.photo{
+	max-width: 520px;
+	width: calc(25vw - 10px);
+	height: calc((35vw - 40px) / 16 * 9);
+	margin: 20px;
+	background-color: #e2ac91;
+	box-shadow: 4px 4px 5px 1px rgb(0,0,0,0.2);
+	background-position: center;
+	background-size: color;
+	opacity: 0.70;
+	transition: 1.5s;
+}
+h1{
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+ }
+ .photo1{
+ 	background-image: url(../img/c.jpg);
+ }  
+.photo2{
+ 	background-image: url(../img/d.jpg);
+ }  
+ .photo3{
+ 	background-image: url(../img/g.jpg);
+ }  
+ .photo4{
+ 	background-image: url(../img/l.jpg);
+ }  
+ .photo5{
+ 	background-image: url(../img/o.jpg);
+ }  
+ .photo6{
+ 	background-image: url(../img/p.jpg);
+ }  
+ .photo7{
+ 	background-image: url(../img/t.jpg);
+ }  
+ .photo8{
+ 	background-image: url(../img/to.jpg);
+ }  
+ .photo9{
+ 	background-image: url(../img/ty.jpg);
+ }  
+ .photo10{ 
+ 	background-image: url(../img/u.jpg);
+ }  
+ .photo11{
+ 	background-image: url(../img/w.jpg);
+ }  
+ .photo12{
+ 	background-image: url(../img/x.jpg);
+ }  
+.photo:hover{
+ 	opacity: 1;
+ 	transform: scale(1.1) rotate(360deg);
+ 	box-shadow: 4px 6px 6px 6px rgb(0,0,0,0.7);
+ }
